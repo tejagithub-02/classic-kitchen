@@ -50,7 +50,7 @@ const Video = () => {
           </div>
           <div className="info-card">
             <h3>Tailored Experiences</h3>
-            <p>Menus and service styled for your taste and theme.</p>
+            <p>Menus & service styled for your taste and theme.</p>
           </div>
           <div className="info-card">
             <h3>Trusted Team</h3>
