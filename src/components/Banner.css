@@ -21,7 +21,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   transition: all 0.3s ease;
   z-index: 999;
 }
@@ -33,6 +34,8 @@
   width: 90%;
   background: rgba(0, 0, 0, 0.2);
   padding: 10px 5%;
+  padding-top: 0px;
+  padding-bottom: 0px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   border-radius: 0;
@@ -42,6 +45,21 @@
 .logo {
   width: 120px;
 }
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
 
 /* === NAV MENU === */
 .nav-menu {

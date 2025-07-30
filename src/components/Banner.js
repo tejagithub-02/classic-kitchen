@@ -51,16 +51,17 @@ const Banner = () => {
       style={{ backgroundImage: `url(${image})` }}
     >
       <header className="header">
-        <div className="logo-section">
-          <img src="/images/logo.png" alt="Trip or Travel" className="logo" />
-        </div>
+      <div className="logo-section">
+  <img src="/images/logo.png" alt="classic kitchen" className="logo" />
+  <span className="brand-name">The Classic kitchen</span>
+</div>
 
         <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
-          <a href="/">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#packages">PACKAGES +</a>
-          <a href="#contact">CONTACT US</a>
-          <a href="#login">LOGIN</a>
+          <a href="/">Home</a>
+          <a href="#about">Menu</a>
+          <a href="#packages">Events</a>
+          <a href="#contact">About Us</a>
+          <a href="#login">Contact Us</a>
         </nav>
 
         <div className="menu-toggle" onClick={toggleMenu}>

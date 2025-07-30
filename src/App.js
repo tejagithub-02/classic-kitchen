@@ -7,6 +7,8 @@ import Banner from './components/Banner';
 import Dishes from './components/Dishes';
 import Services from './components/Services';
 import BookingForm from './components/BookingForm';
+import About from './components/About';
+import Video from './components/Video';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -28,6 +30,8 @@ const App = () => {
         <Dishes/>
         <Services/>
         <BookingForm/>
+        <About/>
+        <Video/>
        </>
       )}
     </>
