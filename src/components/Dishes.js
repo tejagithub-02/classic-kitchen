@@ -28,7 +28,7 @@ const dishes = [
     rating: 4,
   },
   {
-    image: '/images/food4.jpg',
+    image: '/images/sweet.jpg',
     title: 'Delicious Sweets',
     rating: 4,
   },

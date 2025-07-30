@@ -9,7 +9,7 @@ const Services = () => {
       title: 'Wedding Services',
       description: 'Elegant full-service catering for your big day.',
       more: 'Includes decoration, live counters, and custom menus.',
-      image: '/services/wedding.jpeg',
+      image: '/services/wedding.jpg',
     },
     {
       title: 'Corporate Catering',
