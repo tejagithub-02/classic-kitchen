@@ -51,10 +51,10 @@ const Banner = () => {
       style={{ backgroundImage: `url(${image})` }}
     >
       <header className="header">
-      <div className="logo-section">
-  <img src="/images/logo.png" alt="classic kitchen" className="logo" />
-  <span className="brand-name">The Classic kitchen</span>
-</div>
+        <div className="logo-section">
+          <img src="/images/logo.png" alt="classic kitchen" className="logo" />
+          <span className="brand-name">The Classic kitchen</span>
+        </div>
 
         <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
           <a href="/">Home</a>

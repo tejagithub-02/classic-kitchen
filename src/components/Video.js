@@ -52,7 +52,10 @@ const Video = () => {
             <h3>Tailored Experiences</h3>
             <p>Menus and service styled for your taste and theme.</p>
           </div>
-         
+          <div className="info-card">
+            <h3>Trusted Team</h3>
+            <p>Professional chefs and coordinators to handle every detail.</p>
+          </div>
         </div>
       </div>
     </section>
